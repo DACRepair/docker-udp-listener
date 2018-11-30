@@ -4,7 +4,7 @@ MAINTAINER	DACRepair  <DACRepair@gmail.com>
 WORKDIR /usr/src/app
 
 ENV UDPPORT 5005
-ADD udplistener.py WORKDIR /usr/src/app/udplistener.py
+COPY udplistener.py /usr/src/app/udplistener.py
 
 EXPOSE ${UDPPORT}
 EXPOSE ${UDPPORT}/udp
