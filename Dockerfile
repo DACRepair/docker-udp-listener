@@ -9,4 +9,4 @@ COPY udplistener.py /usr/src/app/udplistener.py
 EXPOSE ${UDPPORT}
 EXPOSE ${UDPPORT}/udp
 
-CMD ["python", "-u","/udplistener.py"]
+CMD ["python", "-u","udplistener.py"]
